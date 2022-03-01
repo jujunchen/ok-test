@@ -22,7 +22,7 @@ module.exports = {
       url:"https://exchaintestrpc.okex.org",
       chainId:65,
       accounts:{
-        mnemonic:"naive baby middle degree math confirm sudden hero cinnamon era glimpse fiction"
+        mnemonic:"xxx"
       }
     }
   },

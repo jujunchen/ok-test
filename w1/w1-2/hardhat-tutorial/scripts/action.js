@@ -9,13 +9,14 @@ async function main() {
 
     const countTx = await counter.count();
     await countTx.wait();
-    console.log("counter=%s", counter.get());
+    let getInfo = await counter.get();
+    console.log("counter=%s", getInfo);
 
-    await counter.set(100);
-    console.log("counter=%s", counter.get());
+    // await counter.set(100);
+    // console.log("counter=%s", counter.get());
 
-    await counter.count();
-    console.log("counter=%s", counter.get());
+    // await counter.count();
+    // console.log("counter=%s", counter.get());
 }
 
 main()
